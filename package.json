@@ -1,0 +1,24 @@
+{
+  "name": "learning-blog",
+  "version": "1.0.0",
+  "description": "Blog to share and reflect the learning that happens every day.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanfurniss/learning-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evanfurniss/learning-blog/issues"
+  },
+  "homepage": "https://github.com/evanfurniss/learning-blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  }
+}
