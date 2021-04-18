@@ -1,15 +1,15 @@
 import React from "react";
+import Home from './pages/Home';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
-  );
+    <>
+      <Router>
+        <Route component={Home} exact path='/' />
+      </Router>
+    </>
+  )
 }
 
 export default App;
