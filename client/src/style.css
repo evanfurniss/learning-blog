@@ -1,26 +1,8 @@
-* {
-    background-color: #5bcd95;
+body {
+    background-color:white;
 };
 
-.maindiv {
-    box-sizing: border-box;
-    float: none;
-    background-color: white;
-    background: rgb(204, 204, 204);
-    /* Fallback for older browsers without RGBA-support */
-    background: #cccccc80;
-    margin: auto;
-}
-
-h1.maindiv{
-    color: #EDF5E1;
-}
-
-.post {
-    box-sizing: border-box;
-    float: none;
-    background-color: white;
-    background: rgb(204, 204, 204);
-    /* Fallback for older browsers without RGBA-support */
-    background: rgba(204, 204, 204, 0.5);
+h1, p {
+    color: black;
+    padding: 100px;
 }
